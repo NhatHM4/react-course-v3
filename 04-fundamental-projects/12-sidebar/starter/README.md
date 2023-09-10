@@ -1,3 +1,7 @@
+## Figma URL
+
+[Sidebar and Modal](https://www.figma.com/file/cFyEiRb6jQdVIVK9M5eoe6/Sidebar-and-modal?node-id=0%3A1&t=sg6VSjSNK3T1Uy8P-1)
+
 ## Steps
 
 #### Explore Data
@@ -188,18 +192,18 @@ Sidebar
 .links a:hover svg {
   color: var(--grey-600);
 }
-.social-icons {
+.social-links {
   justify-self: center;
   display: flex;
   padding-bottom: 2rem;
 }
-.social-icons a {
+.social-links a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
   color: var(--primary-500);
   transition: var(--transition);
 }
-.social-icons a:hover {
+.social-links a:hover {
   color: var(--primary-800);
 }
 ```
