@@ -1,4 +1,6 @@
+import Home from "./Home";
+import './App.css'
 const App = () => {
-  return <h2>Sidebar Starter</h2>;
+  return <Home/>;
 };
 export default App;

@@ -1,4 +1,22 @@
+import { useState } from "react";
+import data from "./data";
+import Person from "./Person";
+
 const App = () => {
-  return <h2>Birthday Reminder - Starter</h2>;
+  console.log(data);
+  const [list, setListPerson] = useState(data);
+  return (
+    <>
+      List Person
+      { list &&
+        list.map((person) => {
+          // console.log(person)
+          return <ul key={person.id}>
+            <Person person={person}/>
+          </ul>;
+        })}
+        <button onClick={()=>{setListPerson(null)}}>Clear All</button>
+    </>
+  );
 };
 export default App;

@@ -254,9 +254,9 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 .section-center {
-  width: 80vw;
+  width: 150vw;
   max-width: 40rem;
-  margin: 10rem auto;
+  margin: 0rem auto;
 }
 .section-center h4 {
   text-transform: uppercase;

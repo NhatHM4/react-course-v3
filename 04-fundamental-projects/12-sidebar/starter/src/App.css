@@ -1,0 +1,16 @@
+.sidebar{
+    flex-basis: 30%; /* Set the width of the right section to 30% */
+}
+
+.sidebar1{
+    flex-basis: 0%; /* Set the width of the right section to 30% */
+}
+
+.modal{
+    flex-basis: 70%; /* Set the width of the left section to 70% */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Set the container height to occupy the full viewport height */
+  }

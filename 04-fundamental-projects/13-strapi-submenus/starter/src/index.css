@@ -267,7 +267,7 @@ Navbar
 */
 
 nav {
-  height: 5rem;
+  /* height: rem; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,13 +276,13 @@ nav {
   width: var(--fluid-width);
   max-width: var(--max-width);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .logo {
   text-transform: none;
   color: var(--white);
-  letter-spacing: 3px;
+  letter-spacing:1px;
   font-weight: 700;
 }
 .toggle-btn {
@@ -304,9 +304,13 @@ Hero
 =============== 
 */
 .hero-container {
-  min-height: calc(100vh - 5rem);
+  height: 100px;
   display: grid;
   place-items: center;
+  /* background-color: #0f5132; */
+  width: 100%;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  gap: 10px; /* Gap between columns */
 }
 .hero-center {
   color: var(--white);
@@ -425,7 +429,7 @@ Nav Links
   }
   .nav-center {
     align-self: stretch;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto 1fr;
   }
   .nav-link {
